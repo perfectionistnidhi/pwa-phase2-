@@ -1,0 +1,157 @@
+body{
+	background-color: yellow;
+}
+.main{
+	background-color: aqua;
+	margin-top: 10%;
+	margin: 3%;
+	display:flex;
+	/*justify-content:space-around;*/
+	border-radius: 5%;
+	height: 95%;
+}
+.left{
+	background-color: bisque;
+	border-radius: 5%;
+	text-align: center;
+	margin:4%;
+    box-shadow: 4px 4px 4px 4px;
+    width:25%;
+    height:65%;
+}
+
+img{
+	height: 40%;
+	width:45%;
+	margin-top: 4%;
+	border-radius: 4%;
+}
+.right{
+	background-color:bisque;
+	border-radius: 5%;
+	width:50%;
+	text-align:left;
+	margin:5%;
+	padding-left: 10px;
+	box-shadow:  4px 4px 4px 4px; 
+	height: 80%;
+}
+table,th,td{
+	border:1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+	overflow-x:auto;
+	padding-bottom: 1%;
+	margin: 2%; 
+}
+/*this is in mobile view*/
+@media screen and (min-width: 320px) and (max-width: 500px) {
+body{
+	background-color: aqua;
+}
+.main{
+	background-color: yellow;
+	margin: 2%;
+	display:inline-block;
+	/*justify-content:space-around;*/
+	border-radius: 3%;
+	width: 98%;
+}
+.left{
+	background-color: bisque;
+	border-radius: 3%;
+	text-align: center;
+	margin:7%;
+    box-shadow: 1px 1px 1px 1px;
+    width:75%;
+    height: 60%;
+    padding: 2%;
+}
+
+img{
+	height: 40%;
+	width:45%;
+	margin-top: 4%;
+	border-radius: 4%;
+}
+.right{
+	background-color: bisque;
+	border-radius: 3%;
+	width:90%;
+	text-align:left;
+	margin:3%;
+	padding-left: 1%;
+	box-shadow:  1px 1px 1px 1px; 
+}
+table,th,td{
+	border:1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+	padding-bottom: 1%;
+	margin: 2%;
+	
+}
+}
+/*this is for tablet view*/
+@media screen and (min-width: 501px) and (max-width: 650px) {
+body{
+	background-color: bisque
+}
+.main{
+	background-color: aqua;
+	margin: 5%;
+	display:inline-block;
+	/*justify-content:space-around;*/
+	border-radius: 5%;
+	width: 90%;
+}
+.left{
+	background: yellow;
+	border-radius: 5%;
+	text-align: center;
+	margin:4%;
+	margin-left: 20%;
+    box-shadow: 4px 4px 4px 4px;
+    width:60%;
+    height: 40%;
+}
+/*.left1{
+	background-color: lightpink;
+	margin: 4%;
+	border-radius: 3%;
+	box-shadow: 1px 1px 1px 1px;
+	width:40%;
+
+}
+.left2{
+	background-color: lightpink;
+	margin: 4%;
+	border-radius: 3%;
+	box-shadow: 1px 1px 1px 1px;
+	width: 40%;
+
+
+}*/
+
+img{
+	height: 40%;
+	width:45%;
+	margin-top: 4%;
+	border-radius: 4%;
+}
+.right{
+	background-color: yellow;
+	border-radius: 5%;
+	width:90%;
+	text-align:left;
+	margin:4%;
+	padding-left: 2%;
+	box-shadow:  4px 4px 4px 4px; 
+}
+table,th,td{
+	border:1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+	padding-bottom: 1%;
+	margin: 2%;
+}
