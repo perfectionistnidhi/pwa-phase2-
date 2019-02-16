@@ -22,7 +22,7 @@
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
 </head>
-<body class="res">
+<body>
 	<div class="main">
         <div class="left">
         	
@@ -70,14 +70,11 @@
            display(data.target.result);
       }
   }
-  var body=document.querySelector(".res");
   var left=document.querySelector(".left");
   var right=document.querySelector(".right");
   
    function display(d){
-    var h1=document.createElement("h1");
-  h1.innerHTML="RESUME BUILDING";
-  body.appendChild(h1);
+   
 
    	var image=document.createElement("img");
    	image.src="./image.jpg";
@@ -98,6 +95,9 @@ left.appendChild(phone);
 var place=document.createElement("h3");
 place.textContent=d.native;
 left.appendChild(place);
+	    var h1=document.createElement("h1");
+  h1.innerHTML="RESUME BUILDING";
+  body.appendChild(h1);
 
 
   var s1=document.createElement("h2");
